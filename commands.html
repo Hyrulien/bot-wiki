@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commands - Nattobot Wiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <ul class="dropdown">
+        <li class="menu-item">Menu
+            <ul class="submenu">
+                <li><a href="commands.html">Commands</a></li>
+                <li><a href="drop-rates.html">Drop Rates</a></li>
+                <!-- Add other menu items similarly -->
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<!-- Commands Section Content -->
+<section>
+    <h2 class="bold-text">Commands</h2>
+    
+    <h3 class="bold-text">Daily Claim</h3>
+    <p class="description-text">__Every day you can do the following:__</p>
+    <p>!daily - Claim an accumulating reward that increases in value for every consecutive day logged in and resets your <a href="instance-dungeons.html">instance dungeons keys</a>. After 4 weeks (28 days of consecutive logins) the rewards restart anew.</p>
+    <p>!dailydraw - Draw 10x Cards</p>
+    <p>(Both commands reset at 10:00 PM UTC)</p>
+
+    <h3 class="bold-text">Gambling</h3>
+    <p class="description-text">__The heart and joy of nattobot:__</p>
+    <p>There are 5 different Gambling commands for Nattobot:</p>
+
+    <p class="bold-text">.coinflip <amount> / .cf <amount></p>
+    <p>- Throws a coin for Heads or Tails against the bot with a max. bet amount of 5000 Natto Coins.</p>
+
+    <p class="bold-text">.rps <amount> <choice></p>
+    <p>- Play Rock, Paper, Scissors against the bot with a max. bet amount of 5000 Natto Coins. Optionally, you can add your choice to the command like rock, paper, scissors or the integer equivalent of them being 0, 1, 2. If you don’t, it will be a random choice.</p>
+    <p class="bold-text">Example:</p> <p>.rps 5000 1 / .rps 5000 paper</p>
+    
+    <!-- Add the rest of the commands similarly -->
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
