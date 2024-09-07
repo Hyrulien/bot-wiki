@@ -7,6 +7,7 @@ body {
     font-family: Arial, sans-serif; /* General font for the page */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    color: white; /* Text color */
 }
 
 /* Style for the navigation menu */
@@ -28,6 +29,7 @@ nav {
     background-color: rgba(76, 175, 80, 0.9); /* Semi-transparent background for readability */
     color: white;
     cursor: pointer;
+    font-size: 18px;
 }
 
 /* Style for submenu */
@@ -59,4 +61,16 @@ nav {
 /* Show submenu on hover */
 .menu-item:hover .submenu {
     display: block;
+}
+
+/* Hide all content sections by default */
+section {
+    display: none;
+}
+
+/* Center welcome message */
+.welcome-message {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 24px;
 }
