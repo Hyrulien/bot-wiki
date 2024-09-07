@@ -1,0 +1,52 @@
+/* Style for the navigation menu */
+nav {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the dropdown menu */
+.dropdown {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    cursor: pointer;
+}
+
+/* Style for submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.submenu li {
+    padding: 10px;
+    width: 200px; /* Width of dropdown items */
+}
+
+.submenu li a {
+    color: #333; /* Text color */
+    text-decoration: none;
+}
+
+.submenu li:hover {
+    background-color: #ddd; /* Background on hover */
+}
+
+/* Show submenu on hover */
+.menu-item:hover .submenu {
+    display: block;
+}
