@@ -1,7 +1,17 @@
+/* Style for the whole page background */
+body {
+    background-image: url('https://i.imgur.com/lAcfpE9.png'); /* Background image URL */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* No repeating the image */
+    background-attachment: fixed; /* Background fixed while scrolling */
+    font-family: Arial, sans-serif; /* General font for the page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
 /* Style for the navigation menu */
 nav {
     margin: 20px;
-    font-family: Arial, sans-serif;
 }
 
 /* Style for the dropdown menu */
@@ -15,7 +25,7 @@ nav {
     position: relative;
     display: inline-block;
     padding: 10px;
-    background-color: #4CAF50; /* Green background */
+    background-color: rgba(76, 175, 80, 0.9); /* Semi-transparent background for readability */
     color: white;
     cursor: pointer;
 }
@@ -34,16 +44,16 @@ nav {
 
 .submenu li {
     padding: 10px;
-    width: 200px; /* Width of dropdown items */
+    width: 200px;
 }
 
 .submenu li a {
-    color: #333; /* Text color */
+    color: #333;
     text-decoration: none;
 }
 
 .submenu li:hover {
-    background-color: #ddd; /* Background on hover */
+    background-color: #ddd;
 }
 
 /* Show submenu on hover */
