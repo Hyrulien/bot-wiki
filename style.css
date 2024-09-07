@@ -1,21 +1,21 @@
-/* Style for the whole page background */
+/* General styles */
 body {
-    background-image: url('https://i.imgur.com/lAcfpE9.png'); /* Background image URL */
+    background-image: url('https://i.imgur.com/lAcfpE9.png'); /* Background image */
     background-size: cover; /* Cover the entire page */
-    background-repeat: no-repeat; /* No repeating the image */
-    background-attachment: fixed; /* Background fixed while scrolling */
-    font-family: Arial, sans-serif; /* General font for the page */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    color: white; /* Text color */
+    background-repeat: no-repeat; /* No repeating */
+    background-attachment: fixed; /* Fixed background */
+    font-family: Arial, sans-serif; /* Font */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    color: white; /* White text */
 }
 
-/* Style for the navigation menu */
+/* Style for navigation menu */
 nav {
     margin: 20px;
 }
 
-/* Style for the dropdown menu */
+/* Dropdown menu styling */
 .dropdown {
     list-style-type: none;
     margin: 0;
@@ -26,13 +26,12 @@ nav {
     position: relative;
     display: inline-block;
     padding: 10px;
-    background-color: rgba(76, 175, 80, 0.9); /* Semi-transparent background for readability */
+    background-color: rgba(76, 175, 80, 0.9); /* Semi-transparent green */
     color: white;
     cursor: pointer;
     font-size: 18px;
 }
 
-/* Style for submenu */
 .submenu {
     display: none;
     position: absolute;
@@ -50,7 +49,7 @@ nav {
 }
 
 .submenu li a {
-    color: #333;
+    color: #333; /* Dark text for readability */
     text-decoration: none;
 }
 
@@ -61,6 +60,15 @@ nav {
 /* Show submenu on hover */
 .menu-item:hover .submenu {
     display: block;
+}
+
+/* Text styling */
+.bold-text {
+    font-weight: bold;
+}
+
+.description-text {
+    font-size: 90%; /* Slightly smaller text */
 }
 
 /* Hide all content sections by default */
